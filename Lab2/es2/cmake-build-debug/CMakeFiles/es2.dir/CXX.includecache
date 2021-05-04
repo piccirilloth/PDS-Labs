@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab2/es2/Container.cpp
+Container.h
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab2/es2/Container.h
+
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab2/es2/Container.h
+iostream
+-
+

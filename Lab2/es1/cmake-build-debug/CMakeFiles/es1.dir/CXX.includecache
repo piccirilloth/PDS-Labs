@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab2/es1/MyClass.cpp
+MyClass.h
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab2/es1/MyClass.h
+
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab2/es1/MyClass.h
+
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab2/es1/main.cpp
+iostream
+-
+myList.h
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab2/es1/myList.h
+MyClass.h
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab2/es1/MyClass.h
+
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab2/es1/myList.cpp
+myList.h
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab2/es1/myList.h
+
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab2/es1/myList.h
+MyClass.h
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab2/es1/MyClass.h
+iostream
+-
+

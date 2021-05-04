@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab1/Message.h
+iostream
+-
+string
+-
+
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab1/MessageStore.cpp
+MessageStore.h
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab1/MessageStore.h
+
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab1/MessageStore.h
+Message.h
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab1/Message.h
+iostream
+-
+optional
+-
+

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab3/es2/Matrix.hpp
+iostream
+-
+Row.hpp
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab3/es2/Row.hpp
+
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab3/es2/Row.hpp
+iostream
+-
+
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab3/es2/main.cpp
+iostream
+-
+Matrix.hpp
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab3/es2/Matrix.hpp
+Row.hpp
+C:/Users/user/Desktop/Lab_ProgrammazioneSistema/Lab3/es2/Row.hpp
+
