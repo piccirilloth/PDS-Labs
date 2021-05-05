@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/Lab4.dir/main.cpp.o -o Lab4 
+/usr/bin/c++ -g CMakeFiles/Lab4.dir/main.cpp.o CMakeFiles/Lab4.dir/MapperInput.cpp.o CMakeFiles/Lab4.dir/Result.cpp.o -o Lab4 

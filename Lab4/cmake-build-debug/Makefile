@@ -142,6 +142,60 @@ Lab4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/build
 .PHONY : Lab4/fast
 
+MapperInput.o: MapperInput.cpp.o
+
+.PHONY : MapperInput.o
+
+# target to build an object file
+MapperInput.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/MapperInput.cpp.o
+.PHONY : MapperInput.cpp.o
+
+MapperInput.i: MapperInput.cpp.i
+
+.PHONY : MapperInput.i
+
+# target to preprocess a source file
+MapperInput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/MapperInput.cpp.i
+.PHONY : MapperInput.cpp.i
+
+MapperInput.s: MapperInput.cpp.s
+
+.PHONY : MapperInput.s
+
+# target to generate assembly for a file
+MapperInput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/MapperInput.cpp.s
+.PHONY : MapperInput.cpp.s
+
+Result.o: Result.cpp.o
+
+.PHONY : Result.o
+
+# target to build an object file
+Result.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/Result.cpp.o
+.PHONY : Result.cpp.o
+
+Result.i: Result.cpp.i
+
+.PHONY : Result.i
+
+# target to preprocess a source file
+Result.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/Result.cpp.i
+.PHONY : Result.cpp.i
+
+Result.s: Result.cpp.s
+
+.PHONY : Result.s
+
+# target to generate assembly for a file
+Result.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/Result.cpp.s
+.PHONY : Result.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -178,6 +232,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Lab4"
+	@echo "... MapperInput.o"
+	@echo "... MapperInput.i"
+	@echo "... MapperInput.s"
+	@echo "... Result.o"
+	@echo "... Result.i"
+	@echo "... Result.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -82,6 +82,21 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/oscar/PDS-Labs/Lab4/Mapper.hpp">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/home/oscar/PDS-Labs/Lab4/MapperInput.cpp">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/home/oscar/PDS-Labs/Lab4/MapperInput.h">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/home/oscar/PDS-Labs/Lab4/Result.cpp">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/home/oscar/PDS-Labs/Lab4/Result.h">
+			<Option target="Lab4"/>
+		</Unit>
 		<Unit filename="/home/oscar/PDS-Labs/Lab4/main.cpp">
 			<Option target="Lab4"/>
 		</Unit>

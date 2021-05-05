@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Lab4.dir/MapperInput.cpp.o"
+  "CMakeFiles/Lab4.dir/Result.cpp.o"
   "CMakeFiles/Lab4.dir/main.cpp.o"
   "Lab4"
   "Lab4.pdb"
