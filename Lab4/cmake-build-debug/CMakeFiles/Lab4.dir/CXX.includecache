@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/oscar/PDS-Labs/Lab4/Mapper.hpp
+MapperInput.h
+/home/oscar/PDS-Labs/Lab4/MapperInput.h
+Result.h
+/home/oscar/PDS-Labs/Lab4/Result.h
+vector
+-
+
+/home/oscar/PDS-Labs/Lab4/MapperInput.h
+iostream
+-
+stdio.h
+/home/oscar/PDS-Labs/Lab4/stdio.h
+
+/home/oscar/PDS-Labs/Lab4/Result.h
+iostream
+-
+
+/home/oscar/PDS-Labs/Lab4/main.cpp
+iostream
+-
+MapperInput.h
+/home/oscar/PDS-Labs/Lab4/MapperInput.h
+Mapper.hpp
+/home/oscar/PDS-Labs/Lab4/Mapper.hpp
+
