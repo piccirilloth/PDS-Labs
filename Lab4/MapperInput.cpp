@@ -7,13 +7,13 @@
 #define N 32
 
 MapperInput::MapperInput(string row) {
-    char ip[N], time[N], method[N], url[N], protocol[N], code[N], size[N];
-    sscanf(row.data(), "%s - - [%s \"%s %s %s %s %s", ip, time, method, url, protocol, code, size);
+    char ip[N], time[N], method[N], url[N], protocol[N], code[N], size[N], f[N];
+    sscanf(row.data(), "%s - - [%s %s \"%s %s %s %s %s", ip, time, f, method, url, protocol, code, size);
     this->ipAddress.assign(ip);
-    this->timestamp.assign(time).erase(this->timestamp.length()-1, 1);
+    this->timestamp.assign(time).append(f).erase(this->timestamp.length()-1, 1);
     this->method.assign(method);
     this->url.assign(url);
-    this->protocol.assign(protocol).erase(this->protocol.length()-1), 1;
+    this->protocol.assign(protocol).erase(this->protocol.length()-1);
     this->code.assign(code);
     this->size.assign(size);
 }

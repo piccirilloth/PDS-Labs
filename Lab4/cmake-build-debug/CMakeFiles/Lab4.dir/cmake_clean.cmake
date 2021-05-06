@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Lab4.dir/MapperInput.cpp.o"
-  "CMakeFiles/Lab4.dir/Result.cpp.o"
-  "CMakeFiles/Lab4.dir/main.cpp.o"
-  "Lab4"
+  "CMakeFiles/Lab4.dir/MapperInput.cpp.obj"
+  "CMakeFiles/Lab4.dir/Result.cpp.obj"
+  "CMakeFiles/Lab4.dir/main.cpp.obj"
+  "Lab4.exe"
+  "Lab4.exe.manifest"
+  "Lab4.lib"
   "Lab4.pdb"
 )
 

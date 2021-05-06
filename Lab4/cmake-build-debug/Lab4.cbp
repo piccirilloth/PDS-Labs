@@ -4,103 +4,101 @@
 	<Project>
 		<Option title="Lab4"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
+		<Option compiler="msvc8"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/oscar/PDS-Labs/Lab4/cmake-build-debug"/>
+				<Option working_dir="C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/oscar/PDS-Labs/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/oscar/PDS-Labs/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/oscar/PDS-Labs/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/oscar/PDS-Labs/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/oscar/PDS-Labs/Lab4/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/oscar/PDS-Labs/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/oscar/PDS-Labs/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/oscar/PDS-Labs/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/oscar/PDS-Labs/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\picci\OneDrive\Desktop\PDS-Labs\Lab4\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\picci\OneDrive\Desktop\PDS-Labs\Lab4\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\picci\OneDrive\Desktop\PDS-Labs\Lab4\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\picci\OneDrive\Desktop\PDS-Labs\Lab4\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/oscar/PDS-Labs/Lab4/cmake-build-debug"/>
+				<Option working_dir="C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/oscar/PDS-Labs/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/oscar/PDS-Labs/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/oscar/PDS-Labs/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/oscar/PDS-Labs/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\picci\OneDrive\Desktop\PDS-Labs\Lab4\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\picci\OneDrive\Desktop\PDS-Labs\Lab4\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\picci\OneDrive\Desktop\PDS-Labs\Lab4\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\picci\OneDrive\Desktop\PDS-Labs\Lab4\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab4">
-				<Option output="/home/oscar/PDS-Labs/Lab4/cmake-build-debug/Lab4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/oscar/PDS-Labs/Lab4/cmake-build-debug"/>
+				<Option output="C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/cmake-build-debug/Lab4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/oscar/PDS-Labs/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab4"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/oscar/PDS-Labs/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/oscar/PDS-Labs/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/oscar/PDS-Labs/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\picci\OneDrive\Desktop\PDS-Labs\Lab4\cmake-build-debug\Makefile VERBOSE=1 Lab4"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\picci\OneDrive\Desktop\PDS-Labs\Lab4\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\picci\OneDrive\Desktop\PDS-Labs\Lab4\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\picci\OneDrive\Desktop\PDS-Labs\Lab4\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab4/fast">
-				<Option output="/home/oscar/PDS-Labs/Lab4/cmake-build-debug/Lab4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/oscar/PDS-Labs/Lab4/cmake-build-debug"/>
+				<Option output="C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/cmake-build-debug/Lab4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/oscar/PDS-Labs/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab4/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/oscar/PDS-Labs/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/oscar/PDS-Labs/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/oscar/PDS-Labs/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\picci\OneDrive\Desktop\PDS-Labs\Lab4\cmake-build-debug\Makefile VERBOSE=1 Lab4/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\picci\OneDrive\Desktop\PDS-Labs\Lab4\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\picci\OneDrive\Desktop\PDS-Labs\Lab4\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\picci\OneDrive\Desktop\PDS-Labs\Lab4\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\picci\OneDrive\Desktop\PDS-Labs\Lab4\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\picci\OneDrive\Desktop\PDS-Labs\Lab4\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\picci\OneDrive\Desktop\PDS-Labs\Lab4\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\picci\OneDrive\Desktop\PDS-Labs\Lab4\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/oscar/PDS-Labs/Lab4/Mapper.hpp">
+		<Unit filename="C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/Mapper.hpp">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/home/oscar/PDS-Labs/Lab4/MapperInput.cpp">
+		<Unit filename="C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/MapperInput.cpp">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/home/oscar/PDS-Labs/Lab4/MapperInput.h">
+		<Unit filename="C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/MapperInput.h">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/home/oscar/PDS-Labs/Lab4/Result.cpp">
+		<Unit filename="C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/Result.cpp">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/home/oscar/PDS-Labs/Lab4/Result.h">
+		<Unit filename="C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/Result.h">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/home/oscar/PDS-Labs/Lab4/main.cpp">
+		<Unit filename="C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/main.cpp">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/home/oscar/PDS-Labs/Lab4/CMakeLists.txt">
+		<Unit filename="C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

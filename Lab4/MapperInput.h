@@ -5,6 +5,7 @@
 #ifndef LAB4_MAPPERINPUT_H
 #define LAB4_MAPPERINPUT_H
 #include <iostream>
+#include <string>
 #include "stdio.h"
 
 using namespace std;

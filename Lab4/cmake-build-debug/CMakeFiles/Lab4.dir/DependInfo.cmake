@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/oscar/PDS-Labs/Lab4/MapperInput.cpp" "/home/oscar/PDS-Labs/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/MapperInput.cpp.o"
-  "/home/oscar/PDS-Labs/Lab4/Result.cpp" "/home/oscar/PDS-Labs/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/Result.cpp.o"
-  "/home/oscar/PDS-Labs/Lab4/main.cpp" "/home/oscar/PDS-Labs/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/main.cpp.o"
+  "C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/MapperInput.cpp" "C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/MapperInput.cpp.obj"
+  "C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/Result.cpp" "C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/Result.cpp.obj"
+  "C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/main.cpp" "C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/main.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
