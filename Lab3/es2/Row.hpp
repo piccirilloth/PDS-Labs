@@ -19,6 +19,9 @@ public:
     T & operator[](const T &index) const {
         return _ptr[index];
     };
+    T & operator[](T &index) {
+        return _ptr[index];
+    };
     Row(const Row &val) = delete; //copy is forbidden
     Row(Row &&val) {
         std::cout << "row move called\n";
