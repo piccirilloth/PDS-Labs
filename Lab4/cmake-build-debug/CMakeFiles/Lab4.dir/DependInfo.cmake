@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/MapperInput.cpp" "C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/MapperInput.cpp.obj"
+  "C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/ReducerInput.cpp" "C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/ReducerInput.cpp.obj"
   "C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/Result.cpp" "C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/Result.cpp.obj"
   "C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/main.cpp" "C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/main.cpp.obj"
   )

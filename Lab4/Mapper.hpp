@@ -11,10 +11,12 @@
 template <typename MapperInputT, typename ResultT>
 class Mapper {
 private:
-    std::vector<ResultT> results;
+
 
 public:
-    std::vector<ResultT> map(const MapperInputT& input) {
+    //static std::vector<ResultT> results;
+    static std::vector<ResultT> map(const MapperInputT& input) {
+        std::vector<ResultT> results;
         results.clear();
         // key=IP
         results.push_back(ResultT(input.getIpAddress(), 1));

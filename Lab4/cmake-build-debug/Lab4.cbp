@@ -89,6 +89,15 @@
 		<Unit filename="C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/MapperInput.h">
 			<Option target="Lab4"/>
 		</Unit>
+		<Unit filename="C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/Reducer.hpp">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/ReducerInput.cpp">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/ReducerInput.h">
+			<Option target="Lab4"/>
+		</Unit>
 		<Unit filename="C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/Result.cpp">
 			<Option target="Lab4"/>
 		</Unit>

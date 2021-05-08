@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Lab4.dir/MapperInput.cpp.obj"
+  "CMakeFiles/Lab4.dir/ReducerInput.cpp.obj"
   "CMakeFiles/Lab4.dir/Result.cpp.obj"
   "CMakeFiles/Lab4.dir/main.cpp.obj"
   "Lab4.exe"

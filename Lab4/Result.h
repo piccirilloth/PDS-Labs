@@ -13,6 +13,7 @@ private:
 
 public:
     Result(std::string key, int value);
+    Result();
     ~Result();
 
     const std::string &getKey() const;

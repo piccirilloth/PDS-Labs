@@ -4,11 +4,16 @@
 CMakeFiles\Lab4.dir\MapperInput.cpp.obj: ..\MapperInput.cpp
 CMakeFiles\Lab4.dir\MapperInput.cpp.obj: ..\MapperInput.h
 
+CMakeFiles\Lab4.dir\ReducerInput.cpp.obj: ..\ReducerInput.cpp
+CMakeFiles\Lab4.dir\ReducerInput.cpp.obj: ..\ReducerInput.h
+
 CMakeFiles\Lab4.dir\Result.cpp.obj: ..\Result.cpp
 CMakeFiles\Lab4.dir\Result.cpp.obj: ..\Result.h
 
 CMakeFiles\Lab4.dir\main.cpp.obj: ..\Mapper.hpp
 CMakeFiles\Lab4.dir\main.cpp.obj: ..\MapperInput.h
+CMakeFiles\Lab4.dir\main.cpp.obj: ..\Reducer.hpp
+CMakeFiles\Lab4.dir\main.cpp.obj: ..\ReducerInput.h
 CMakeFiles\Lab4.dir\main.cpp.obj: ..\Result.h
 CMakeFiles\Lab4.dir\main.cpp.obj: ..\main.cpp
 

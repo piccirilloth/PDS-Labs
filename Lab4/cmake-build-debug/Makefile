@@ -153,6 +153,33 @@ MapperInput.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab4.dir\MapperInput.cpp.s
 .PHONY : MapperInput.cpp.s
 
+ReducerInput.obj: ReducerInput.cpp.obj
+
+.PHONY : ReducerInput.obj
+
+# target to build an object file
+ReducerInput.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab4.dir\ReducerInput.cpp.obj
+.PHONY : ReducerInput.cpp.obj
+
+ReducerInput.i: ReducerInput.cpp.i
+
+.PHONY : ReducerInput.i
+
+# target to preprocess a source file
+ReducerInput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab4.dir\ReducerInput.cpp.i
+.PHONY : ReducerInput.cpp.i
+
+ReducerInput.s: ReducerInput.cpp.s
+
+.PHONY : ReducerInput.s
+
+# target to generate assembly for a file
+ReducerInput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab4.dir\ReducerInput.cpp.s
+.PHONY : ReducerInput.cpp.s
+
 Result.obj: Result.cpp.obj
 
 .PHONY : Result.obj
@@ -219,6 +246,9 @@ help:
 	@echo ... MapperInput.obj
 	@echo ... MapperInput.i
 	@echo ... MapperInput.s
+	@echo ... ReducerInput.obj
+	@echo ... ReducerInput.i
+	@echo ... ReducerInput.s
 	@echo ... Result.obj
 	@echo ... Result.i
 	@echo ... Result.s

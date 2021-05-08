@@ -22,6 +22,16 @@ string
 stdio.h
 C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/stdio.h
 
+C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/Reducer.hpp
+ReducerInput.h
+C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/ReducerInput.h
+
+C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/ReducerInput.h
+iostream
+-
+string
+-
+
 C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/Result.h
 iostream
 -
@@ -33,4 +43,10 @@ MapperInput.h
 C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/MapperInput.h
 Mapper.hpp
 C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/Mapper.hpp
+Reducer.hpp
+C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/Reducer.hpp
+ReducerInput.h
+C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/ReducerInput.h
+map
+C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab4/map
 
