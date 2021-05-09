@@ -19,7 +19,7 @@ MapperInput::MapperInput(string row) {
 }
 
 MapperInput::~MapperInput() {
-    cout << "calling destructor of MapperInput\n";
+    //cout << "calling destructor of MapperInput\n";
 }
 
 const string &MapperInput::getIpAddress() const {
@@ -79,9 +79,8 @@ void MapperInput::setSize(const string &size) {
 }
 
 string MapperInput::getTime() const {
-    char time[2];
-    time[0] = this->timestamp.at(12);
-    time[1] = this->timestamp.at(13);
-    string ret(time);
-    return ret;
+    std::string str = "";
+    str.push_back(this->timestamp.at(12));
+    str.push_back(this->timestamp.at(13));
+    return str;
 }

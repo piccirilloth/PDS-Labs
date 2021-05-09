@@ -11,7 +11,7 @@ Result::Result(std::string key, int value): key(key), value(value) {
 Result::Result(): key(""), value(0) {}
 
 Result::~Result() {
-    std::cout << "calling destructor of Result\n";
+    //std::cout << "calling destructor of Result\n";
 }
 
 const std::string &Result::getKey() const {
