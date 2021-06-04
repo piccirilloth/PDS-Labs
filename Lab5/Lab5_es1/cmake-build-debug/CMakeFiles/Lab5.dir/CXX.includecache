@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab5/Jobs.hpp
+queue
+-
+condition_variable
+-
+mutex
+-
+
+C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab5/Row.h
+string
+-
+
+C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab5/main.cpp
+iostream
+-
+filesystem
+-
+vector
+-
+fstream
+-
+Jobs.hpp
+C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab5/Jobs.hpp
+Row.h
+C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab5/Row.h
+regex
+-
+thread
+-
+
