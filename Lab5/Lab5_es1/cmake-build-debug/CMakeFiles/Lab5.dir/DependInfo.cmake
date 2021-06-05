@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab5/Row.cpp" "C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab5/cmake-build-debug/CMakeFiles/Lab5.dir/Row.cpp.obj"
-  "C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab5/main.cpp" "C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab5/cmake-build-debug/CMakeFiles/Lab5.dir/main.cpp.obj"
+  "C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab5/Lab5_es1/Row.cpp" "C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab5/Lab5_es1/cmake-build-debug/CMakeFiles/Lab5.dir/Row.cpp.obj"
+  "C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab5/Lab5_es1/main.cpp" "C:/Users/picci/OneDrive/Desktop/PDS-Labs/Lab5/Lab5_es1/cmake-build-debug/CMakeFiles/Lab5.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

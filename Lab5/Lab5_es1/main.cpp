@@ -17,7 +17,7 @@ void producer(Jobs<Row> &j) {
     std::ifstream fin;
     char row[256];
     int count;
-    fs::path p("C:\\Users\\picci\\OneDrive\\Desktop\\PDS-Labs\\Lab5\\es1");
+    fs::path p("C:\\Users\\picci\\OneDrive\\Desktop\\PDS-Labs\\Lab5\\Lab5_es1\\es1");
     for(auto &file: fs::directory_iterator(p)) {
         //std::cout << "actual file " << file.path() << '\n';
         count = 0;
