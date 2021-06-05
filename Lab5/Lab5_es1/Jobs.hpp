@@ -19,9 +19,10 @@ private:
 public:
     std::mutex endMutex;
     int end;
+
     void put(T job) {
         std::unique_lock<std::mutex> ul(queueLock);
-        if(jobsQueue.size() == threshold)
+        while(jobsQueue.size() == threshold)
             fullCV.wait(ul);
         jobsQueue.push(job);
         if(jobsQueue.size() == 1)
@@ -32,28 +33,22 @@ public:
         std::unique_lock<std::mutex> ul(queueLock);
         T ret;
         bool flag = false;
-        {
-            std::lock_guard<std::mutex> lg(endMutex);
-            if(end == 1 && jobsQueue.size() == 0)
-                flag = true;
-        }
-        if(flag) {
-            ul.unlock();
-            return ret;
-        }
-        while(jobsQueue.size() == 0)
+        while(jobsQueue.size() == 0) {
+            {
+                std::lock_guard<std::mutex> lg(endMutex);
+                if(end == 1 && jobsQueue.size() == 0)
+                    flag = true;
+            }
+            if(flag) {
+                ul.unlock();
+                return ret;
+            }
             emptyCV.wait(ul);
-        {
-            std::lock_guard<std::mutex> lg(endMutex);
-            if(end == 1 && jobsQueue.size() == 0)
-                flag = true;
         }
-        if(flag) {
-            ul.unlock();
-            return ret;
+        if(!jobsQueue.empty()) {
+            ret = jobsQueue.front();
+            jobsQueue.pop();
         }
-        ret = jobsQueue.front();
-        jobsQueue.pop();
         if(jobsQueue.size() == threshold-1)
             fullCV.notify_one();
         return ret;

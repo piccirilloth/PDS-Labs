@@ -17,6 +17,8 @@ private:
     std::mutex queueLock;
     int threshold;
 public:
+    std::queue<std::string> fileJobs;
+    std::mutex fileJobsMutex;
     std::mutex endMutex;
     int end;
     void put(T job) {
@@ -32,21 +34,22 @@ public:
         std::unique_lock<std::mutex> ul(queueLock);
         T ret;
         bool flag = false;
-        while(jobsQueue.size() == 0) {
+        while(jobsQueue.empty()) {
             {
                 std::lock_guard<std::mutex> lg(endMutex);
-                if (end == 10 && jobsQueue.size() == 0)
+                if (end == 10 && jobsQueue.empty())
                     flag = true;
-                if (flag) {
-                    ul.unlock();
-                    return ret;
-                }
+            }
+            if (flag) {
+                ul.unlock();
+                return ret;
             }
             emptyCV.wait(ul);
         }
-
-        ret = jobsQueue.front();
-        jobsQueue.pop();
+        if(!jobsQueue.empty()) {
+            ret = jobsQueue.front();
+            jobsQueue.pop();
+        }
         if(jobsQueue.size() == threshold-1)
             fullCV.notify_one();
         return ret;

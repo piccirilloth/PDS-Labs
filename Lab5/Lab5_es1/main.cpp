@@ -7,7 +7,6 @@
 #include <regex>
 #include <thread>
 #define N 10
-#define M 10
 
 namespace fs = std::filesystem;
 
@@ -49,7 +48,7 @@ void consumer(Jobs<Row> &j) {
             std::cout << "end of a consumer\n";
             flag = true;
         }
-        if(std::regex_match(r.getRow(), std::regex("\\bciao\\b"))) {
+        else if(std::regex_match(r.getRow(), std::regex("\\bciao\\b"))) {
             {
                 std::lock_guard<std::mutex> lg(printMutex);
                 std::cout << "matching found!" << ": " << r.getNRow() << " " << r.getFileName() << " " << r.getRow() << '\n';
